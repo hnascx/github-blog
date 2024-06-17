@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { ExternalLink } from "../../../components/ExternalLink";
+import { ExternalLink } from "../../../../components/ExternalLink";
 import { ProfileContainer, ProfileDetails, ProfilePicture } from "./styles";
 import { faBuilding, faUserGroup } from "@fortawesome/free-solid-svg-icons"
 import { faGithub } from "@fortawesome/free-brands-svg-icons"

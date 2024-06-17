@@ -15,7 +15,7 @@ export const GlobalStyles = createGlobalStyle`
     }
 
     ::-webkit-scrollbar-thumb {
-      background: ${({ theme }) => theme.colors["brand-blue"]};
+      background: ${({ theme }) => theme.colors["base-label"]};
       border-radius: 999px;
     }
   }
