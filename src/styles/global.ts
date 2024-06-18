@@ -1,4 +1,4 @@
-import { createGlobalStyle } from "styled-components";
+import { createGlobalStyle } from 'styled-components'
 
 export const GlobalStyles = createGlobalStyle`
   * {
@@ -11,24 +11,24 @@ export const GlobalStyles = createGlobalStyle`
     }
 
     ::-webkit-scrollbar-track {
-      background: ${({ theme }) => theme.colors["base-border"]}
+      background: ${({ theme }) => theme.colors['base-border']}
     }
 
     ::-webkit-scrollbar-thumb {
-      background: ${({ theme }) => theme.colors["base-label"]};
+      background: ${({ theme }) => theme.colors['base-label']};
       border-radius: 999px;
     }
   }
 
   body {
-    background: ${({ theme }) => theme.colors["base-background"]};
-    color: ${({ theme }) => theme.colors["base-text"]};
+    background: ${({ theme }) => theme.colors['base-background']};
+    color: ${({ theme }) => theme.colors['base-text']};
     -webkit-font-smoothing: antialiased;
   }
 
   body, input, textarea, button {
     font: 400 ${({ theme }) =>
-      theme.textSizes["text-text-m"]} 'Nunito', sans-serif;
+      theme.textSizes['text-text-m']} 'Nunito', sans-serif;
       line-height: 160%;
   }
 

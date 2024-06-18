@@ -1,7 +1,7 @@
-import { Route, Routes } from "react-router-dom";
-import { Blog } from "./pages/Blog";
-import { DefaultLayout } from "./layouts/DefaultLayout";
-import { Post } from "./pages/Post";
+import { Route, Routes } from 'react-router-dom'
+import { Blog } from './pages/Blog'
+import { DefaultLayout } from './layouts/DefaultLayout'
+import { Post } from './pages/Post'
 
 export function Router() {
   return (

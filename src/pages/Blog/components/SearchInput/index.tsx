@@ -1,4 +1,4 @@
-import { SearchInputContainer } from "./styles";
+import { SearchInputContainer } from './styles'
 
 export function SearchInput() {
   return (
