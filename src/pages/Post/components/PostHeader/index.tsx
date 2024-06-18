@@ -24,7 +24,7 @@ export function PostHeader() {
           onClick={goBack}
           icon={<FontAwesomeIcon icon={faChevronLeft} />}
           text="Voltar"
-          variant='iconLeft'
+          variant="iconLeft"
         />
         <ExternalLink text="Ver no Github" href="#" target="_blank" />
       </header>
