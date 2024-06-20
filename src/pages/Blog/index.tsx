@@ -31,7 +31,7 @@ export function Blog() {
         const response = await api.get(
           `/search/issues?q=${query}%20repo:${username}/${repoName}`,
         )
-        console.log(response.data)
+
         setPosts(response.data.items)
       } finally {
         setIsLoading(false)
@@ -47,7 +47,7 @@ export function Blog() {
   return (
     <>
       <Profile />
-      <SearchInput />
+      <SearchInput postsLength={posts.length} getPosts={getPosts} />
       <PostsListContainer>
         {posts.map((post) => (
           <Post
